@@ -48,5 +48,7 @@ const data=[
         info : "Uttarakhand, also known as Devbhumi or the Land of the Gods, is a popular tourist destination in India, renowned for its Himalayan beauty, spiritual significance, and diverse wildlife. The state attracts a large number of domestic tourists, particularly for its hill stations, pilgrimage sites, and national parks.Uttarakhand offers stunning Himalayan scenery, including snow-capped peaks, glaciers, and rivers like the Ganga. Popular activities include trekking, river rafting, skiing, and camping.  ",
         image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJMrU3uD-w5Hfbh55BUIwJgb02HyOso_x95w&s",
         Price : "56,900",  
-    }
-]
+    },
+];
+ 
+export default data;
