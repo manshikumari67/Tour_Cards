@@ -14,10 +14,10 @@ function App() {
 
     if(tours.length ===0){
       return(
-        <div className='refresh flex flex-col items-center justify-center'>
+        <div className='refresh flex items-center justify-center flex-col mt-64'>
           
-          <h2>No Tours left</h2>
-          <button className='ref mt-[18px] px-[80px] py-[10px] border border-white cursor-pointer hover:bg-white hover:text-black transition-all duration-200' onClick={() => setTours(data)}>
+          <h2 className='no-tour text-5xl font-bold'>No Tours left</h2>
+          <button className='ref mt-[25px] px-[80px] py-[10px] border border-black cursor-pointer hover:bg-fuchsia-300 hover:text-black transition-all duration-200 cursor-pointer rounded-[10px]' onClick={() => setTours(data)}>
             Refresh</button>
 
         </div>
